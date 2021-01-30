@@ -1,0 +1,6 @@
+framework module Pods_CloneDataFriendsTests {
+  umbrella header "Pods-CloneDataFriendsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
