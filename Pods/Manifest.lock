@@ -1,5 +1,9 @@
 PODS:
+  - Action (4.2.0):
+    - RxCocoa (< 7.0, >= 5.0)
+    - RxSwift (< 7.0, >= 5.0)
   - Alamofire (5.4.1)
+  - APIKit (5.1.0)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
@@ -12,38 +16,50 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - RxWebKit (1.0.2):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
+  - Action
   - Alamofire
+  - APIKit
   - Moya
   - Nimble
   - Quick
   - RxCocoa
   - RxSwift
+  - RxWebKit
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Action
     - Alamofire
+    - APIKit
     - Moya
     - Nimble
     - Quick
     - RxCocoa
     - RxRelay
     - RxSwift
+    - RxWebKit
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Action: 5dc2194f7a0b77857c82a677b0da655f197c005f
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  APIKit: 9e1a4069608bf0ae5238811e6cfc26928ad4d01e
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
   Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxWebKit: a3085e7cd8b57182b452692686675702474014dd
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: ccb53950f7f104e793308c2ec9e2d67def7835a4
+PODFILE CHECKSUM: 26af8059a740ad3c0a499465287898ae8717cc49
 
 COCOAPODS: 1.10.0

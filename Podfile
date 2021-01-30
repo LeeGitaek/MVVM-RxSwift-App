@@ -9,6 +9,9 @@ target 'CloneDataFriends' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'Moya'
+  pod 'Action'
+  pod 'RxWebKit'
+  pod 'APIKit'
   # Pods for CloneDataFriends
 
   target 'CloneDataFriendsTests' do
