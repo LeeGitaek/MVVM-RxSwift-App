@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		F99A3D1C25C5C7B9008F0C75 /* CloneDataFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D1B25C5C7B9008F0C75 /* CloneDataFriendsTests.swift */; };
 		F99A3D2725C5C7B9008F0C75 /* CloneDataFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D2625C5C7B9008F0C75 /* CloneDataFriendsUITests.swift */; };
 		F99A3D3925C5CAC7008F0C75 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D3825C5CAC7008F0C75 /* GitHubModel.swift */; };
+		F99A3D4525C5CF78008F0C75 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D4425C5CF78008F0C75 /* GithubApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		F99A3D2625C5C7B9008F0C75 /* CloneDataFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneDataFriendsUITests.swift; sourceTree = "<group>"; };
 		F99A3D2825C5C7B9008F0C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F99A3D3825C5CAC7008F0C75 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
+		F99A3D4425C5CF78008F0C75 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,6 @@
 				882DE361D415D7C40D487423 /* Pods-CloneDataFriendsTests.debug.xcconfig */,
 				01266F180D0606EBCBA44C53 /* Pods-CloneDataFriendsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 		F99A3D0025C5C7B7008F0C75 /* CloneDataFriends */ = {
 			isa = PBXGroup;
 			children = (
+				F99A3D4325C5CF43008F0C75 /* Api */,
 				F99A3D3725C5CAA2008F0C75 /* Model */,
 				F99A3D0125C5C7B7008F0C75 /* AppDelegate.swift */,
 				F99A3D0325C5C7B7008F0C75 /* SceneDelegate.swift */,
@@ -181,6 +183,14 @@
 				F99A3D3825C5CAC7008F0C75 /* GitHubModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F99A3D4325C5CF43008F0C75 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F99A3D4425C5CF78008F0C75 /* GithubApi.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +452,7 @@
 				F99A3D0625C5C7B7008F0C75 /* ViewController.swift in Sources */,
 				F99A3D3925C5CAC7008F0C75 /* GitHubModel.swift in Sources */,
 				F99A3D0225C5C7B7008F0C75 /* AppDelegate.swift in Sources */,
+				F99A3D4525C5CF78008F0C75 /* GithubApi.swift in Sources */,
 				F99A3D0425C5C7B7008F0C75 /* SceneDelegate.swift in Sources */,
 				F99A3D0C25C5C7B7008F0C75 /* CloneDataFriends.xcdatamodeld in Sources */,
 			);
