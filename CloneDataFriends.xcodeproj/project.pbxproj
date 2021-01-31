@@ -21,6 +21,7 @@
 		F99A3D2725C5C7B9008F0C75 /* CloneDataFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D2625C5C7B9008F0C75 /* CloneDataFriendsUITests.swift */; };
 		F99A3D3925C5CAC7008F0C75 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D3825C5CAC7008F0C75 /* GitHubModel.swift */; };
 		F99A3D4525C5CF78008F0C75 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D4425C5CF78008F0C75 /* GithubApi.swift */; };
+		F99A3D6125C66604008F0C75 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D6025C66604008F0C75 /* GitHubRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F99A3D2825C5C7B9008F0C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F99A3D3825C5CAC7008F0C75 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
 		F99A3D4425C5CF78008F0C75 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
+		F99A3D6025C66604008F0C75 /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				F99A3D4425C5CF78008F0C75 /* GithubApi.swift */,
+				F99A3D6025C66604008F0C75 /* GitHubRequest.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				F99A3D3925C5CAC7008F0C75 /* GitHubModel.swift in Sources */,
 				F99A3D0225C5C7B7008F0C75 /* AppDelegate.swift in Sources */,
 				F99A3D4525C5CF78008F0C75 /* GithubApi.swift in Sources */,
+				F99A3D6125C66604008F0C75 /* GitHubRequest.swift in Sources */,
 				F99A3D0425C5C7B7008F0C75 /* SceneDelegate.swift in Sources */,
 				F99A3D0C25C5C7B7008F0C75 /* CloneDataFriends.xcdatamodeld in Sources */,
 			);
