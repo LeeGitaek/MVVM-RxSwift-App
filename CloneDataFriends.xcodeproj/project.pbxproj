@@ -22,6 +22,10 @@
 		F99A3D3925C5CAC7008F0C75 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D3825C5CAC7008F0C75 /* GitHubModel.swift */; };
 		F99A3D4525C5CF78008F0C75 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D4425C5CF78008F0C75 /* GithubApi.swift */; };
 		F99A3D6125C66604008F0C75 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D6025C66604008F0C75 /* GitHubRequest.swift */; };
+		F99A3D6625C677E6008F0C75 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D6525C677E5008F0C75 /* MainViewModel.swift */; };
+		F99A3D6B25C67FF4008F0C75 /* RxHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D6A25C67FF4008F0C75 /* RxHelpers.swift */; };
+		F99A3D7025C67FFC008F0C75 /* SessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D6F25C67FFC008F0C75 /* SessionExtension.swift */; };
+		F99A3D7525C68005008F0C75 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A3D7425C68004008F0C75 /* StoryboardInstantiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		F99A3D3825C5CAC7008F0C75 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
 		F99A3D4425C5CF78008F0C75 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
 		F99A3D6025C66604008F0C75 /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
+		F99A3D6525C677E5008F0C75 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F99A3D6A25C67FF4008F0C75 /* RxHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxHelpers.swift; sourceTree = "<group>"; };
+		F99A3D6F25C67FFC008F0C75 /* SessionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionExtension.swift; sourceTree = "<group>"; };
+		F99A3D7425C68004008F0C75 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,11 +155,15 @@
 		F99A3D0025C5C7B7008F0C75 /* CloneDataFriends */ = {
 			isa = PBXGroup;
 			children = (
+				F99A3D6A25C67FF4008F0C75 /* RxHelpers.swift */,
+				F99A3D6F25C67FFC008F0C75 /* SessionExtension.swift */,
+				F99A3D7425C68004008F0C75 /* StoryboardInstantiable.swift */,
 				F99A3D4325C5CF43008F0C75 /* Api */,
 				F99A3D3725C5CAA2008F0C75 /* Model */,
 				F99A3D0125C5C7B7008F0C75 /* AppDelegate.swift */,
 				F99A3D0325C5C7B7008F0C75 /* SceneDelegate.swift */,
 				F99A3D0525C5C7B7008F0C75 /* ViewController.swift */,
+				F99A3D6525C677E5008F0C75 /* MainViewModel.swift */,
 				F99A3D0725C5C7B7008F0C75 /* Main.storyboard */,
 				F99A3D0D25C5C7B8008F0C75 /* Assets.xcassets */,
 				F99A3D0F25C5C7B8008F0C75 /* LaunchScreen.storyboard */,
@@ -454,11 +466,15 @@
 			files = (
 				F99A3D0625C5C7B7008F0C75 /* ViewController.swift in Sources */,
 				F99A3D3925C5CAC7008F0C75 /* GitHubModel.swift in Sources */,
+				F99A3D6B25C67FF4008F0C75 /* RxHelpers.swift in Sources */,
 				F99A3D0225C5C7B7008F0C75 /* AppDelegate.swift in Sources */,
+				F99A3D7025C67FFC008F0C75 /* SessionExtension.swift in Sources */,
 				F99A3D4525C5CF78008F0C75 /* GithubApi.swift in Sources */,
 				F99A3D6125C66604008F0C75 /* GitHubRequest.swift in Sources */,
 				F99A3D0425C5C7B7008F0C75 /* SceneDelegate.swift in Sources */,
+				F99A3D7525C68005008F0C75 /* StoryboardInstantiable.swift in Sources */,
 				F99A3D0C25C5C7B7008F0C75 /* CloneDataFriends.xcdatamodeld in Sources */,
+				F99A3D6625C677E6008F0C75 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
